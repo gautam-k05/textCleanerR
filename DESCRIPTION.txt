@@ -1,0 +1,14 @@
+Package: textCleanerR
+Title: Text Cleaner
+Description: The textCleanerR package offers essential tools for string manipulation and text cleaning. It includes functions to remove unwanted characters and whitespace, extract key phrases, and automatically censor sensitive information like emails or phone numbers in text data.
+Version: 1.0
+Authors@R: person("Gautam", "Kansal", email = "gkansal987@gmail.com", role = c("aut", "cre", "cph"))
+License: MIT + file LICENSE
+Depends: R (>= 3.5.0)
+Imports:
+    stringr
+Encoding: UTF-8
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+RoxygenNote: 7.3.1
